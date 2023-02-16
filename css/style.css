@@ -1,0 +1,44 @@
+.nav-bar {
+  text-align: center;
+  background: #ffffff;
+  color: rgb(4, 34, 61);
+  font-size: 40px;
+  text-decoration: none;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  padding: 1rem;
+  border-bottom: 5px solid #f57575;
+}
+
+.logo {
+  max-width: 400px;
+  align-items: center;
+  align-content: center;
+}
+.menu {
+    padding: 1rem;
+    margin-left:auto;
+    text-decoration: none;
+}
+
+.container-travel {
+    display: flex;
+}
+@media all and (max-width: 1000px) {
+    .about {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .travels {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .prices {
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  /* media queries */
+  
